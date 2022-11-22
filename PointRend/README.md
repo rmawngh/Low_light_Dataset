@@ -24,8 +24,3 @@ old_xyz       : xyzrgb.txt files
 original_old  : original(before restoration) images
 restored_old  : restored(after restoration) images
 ```
-
-
-# Result examples
-
-<img src="https://github.com/rmawngh/Old-Photo-3D/blob/main/Pairwise_comparison/gui_example.png">
