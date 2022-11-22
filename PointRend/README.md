@@ -2,7 +2,7 @@
 
 This is the implementation of the paper **PointRend: Image Segmentation as Rendering**
 
-The original code is from [PointRend detectron2 Github] (https://github.com/facebookresearch/detectron2/tree/main/projects/PointRend)
+The original code is from [PointRend detectron2 Github](https://github.com/facebookresearch/detectron2/tree/main/projects/PointRend)
 
 # Requirements
 
