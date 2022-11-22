@@ -9,20 +9,21 @@ The original code is from [PointRend detectron2 Github](https://github.com/faceb
 This code is implemented with Python 3.6 (Anaconda)
 
 ```
-open3d==0.12.0
-numpy
-screeninfo
+Python == 3.6
+CUDA >= 11.1
+torch == 1.11.0
 opencv-python
+scikit-image
+detectron2
 ```
 
 
 # Folder Description
 
 ```
-old_depth     : depth result images
-old_xyz       : xyzrgb.txt files
-original_old  : original(before restoration) images
-restored_old  : restored(after restoration) images
+configs       : PointRend config files
+results       : Low light dataset result examples
+tridentnet    : PointRend model codes
 ```
 
 # Results example
