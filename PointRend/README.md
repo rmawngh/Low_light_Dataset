@@ -24,3 +24,9 @@ old_xyz       : xyzrgb.txt files
 original_old  : original(before restoration) images
 restored_old  : restored(after restoration) images
 ```
+
+# Results example
+
+<p align="center">
+<img src="https://user-images.githubusercontent.com/46700730/203223046-53f07eb7-37b4-4f0f-bb14-0a5129aa4f3e.gif">
+</p>
