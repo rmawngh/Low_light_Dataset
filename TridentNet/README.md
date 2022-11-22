@@ -6,12 +6,14 @@ The original code is from [TridentNet detectron2 Github](https://github.com/face
 
 # Requirements
 
-This code is implemented with Python 3.7 (Anaconda)
+This code is implemented with Python 3.6 (Anaconda)
 
 ```
-Python == 3.7 
+Python == 3.6
 CUDA >= 11.1
-torch == 1.82
+torch == 1.11.0
+opencv-python
+scikit-image
 detectron2
 ```
 
