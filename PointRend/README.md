@@ -20,11 +20,12 @@ detectron2
 # Code Desciption
 You must change the absolute path of each Python file.
 
-#### file list
+#### Create list file
 ```
 python txt_list.py
 ```
-output : txt file
+output : list file
+using this text file in my_dataset_function of each python file.
 
 #### Training
 ```
