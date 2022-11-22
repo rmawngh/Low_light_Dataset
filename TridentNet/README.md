@@ -17,6 +17,34 @@ scikit-image
 detectron2
 ```
 
+# Pretrained Model
+[TridentNet](https://drive.google.com/file/d/1ZLSXj7ccb4hn14lHQE--6I47SDapFWeR/view?usp=share_link)
+
+# Code Desciption
+You must change the absolute path of each Python file.
+
+#### Create list file
+```
+python txt_list.py
+```
+output : list file
+using this text file in my_dataset_function of each python file.
+
+#### Training
+```
+python train_net.py --config-file configs/tridentnet_fast_R_50_C4_1x.yaml --num-gpus 4
+```
+
+#### Evaluation
+```
+python train_net.py --config-file configs/tridentnet_fast_R_50_C4_1x.yaml --eval-only MODEL.WEIGHTS /model_path/tridentnet_model_final.pth
+```
+model_path : your model path
+
+#### Visualization
+```
+python visualization.py
+```
 
 # Folder Description
 
