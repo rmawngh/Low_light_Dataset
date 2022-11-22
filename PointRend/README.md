@@ -51,7 +51,7 @@ python visualization.py
 ```
 configs       : PointRend config files
 results       : Low light dataset result examples
-tridentnet    : PointRend model codes
+pointrend    : PointRend model codes
 ```
 
 # Results example
