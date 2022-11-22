@@ -6,23 +6,22 @@ The original code is from [TridentNet detectron2 Github](https://github.com/face
 
 # Requirements
 
-This code is implemented with Python 3.6 (Anaconda)
+This code is implemented with Python 3.7 (Anaconda)
 
 ```
-open3d==0.12.0
-numpy
-screeninfo
-opencv-python
+Python == 3.7 
+CUDA >= 11.1
+torch == 1.82
+detectron2
 ```
 
 
 # Folder Description
 
 ```
-old_depth     : depth result images
-old_xyz       : xyzrgb.txt files
-original_old  : original(before restoration) images
-restored_old  : restored(after restoration) images
+configs       : TridentNet config files
+results       : Low light dataset result examples
+tridentnet    : TridentNet model codes
 ```
 
 # Results example
