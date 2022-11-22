@@ -17,6 +17,9 @@ scikit-image
 detectron2
 ```
 
+# Pretrained Model
+PointRend<a href="configs/SemanticSegmentation/pointrend_semantic_R_101_FPN_1x_cityscapes.yaml">
+
 # Code Desciption
 You must change the absolute path of each Python file.
 
