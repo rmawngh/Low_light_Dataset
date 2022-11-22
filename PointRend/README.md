@@ -18,7 +18,7 @@ detectron2
 ```
 
 # Pretrained Model
-[PointRend](a href="https://drive.google.com/file/d/10rnEzMteUd8Y0FJXJ2-Cgs-8Np2lC_Xm/view?usp=share_link")
+[PointRend](https://drive.google.com/file/d/10rnEzMteUd8Y0FJXJ2-Cgs-8Np2lC_Xm/view?usp=share_link)
 
 # Code Desciption
 You must change the absolute path of each Python file.
