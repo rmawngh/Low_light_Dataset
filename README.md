@@ -17,11 +17,12 @@ Object Detection part used **Scale-Aware Trident Networks for Object Detection**
 
 The original code is from [TridentNet detectron2 Github](https://github.com/facebookresearch/detectron2/tree/main/projects/TridentNet)
 
-### TridentNet
+### PointRend
 Instance Segmentation part used **PointRend: Image Segmentation as Rendering** paper.
 
 The original code is from [PointRend detectron2 Github](https://github.com/facebookresearch/detectron2/tree/main/projects/PointRend)
 
+<br>
 
 ### Requirements
 
