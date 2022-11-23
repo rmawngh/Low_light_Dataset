@@ -4,18 +4,18 @@ There are the two models used in Low-light Dataset Project.
 
 Each folder describe their code, pretrained model and results.
 
-## TridentNet
+### TridentNet
 Object Detection part used **Scale-Aware Trident Networks for Object Detection** paper.
 
 The original code is from [TridentNet detectron2 Github](https://github.com/facebookresearch/detectron2/tree/main/projects/TridentNet)
 
-## TridentNet
+### TridentNet
 Instance Segmentation part used **PointRend: Image Segmentation as Rendering** paper.
 
 The original code is from [PointRend detectron2 Github](https://github.com/facebookresearch/detectron2/tree/main/projects/PointRend)
 
 
-# Requirements
+### Requirements
 
 This code is implemented with Python 3.6 (Anaconda)
 
