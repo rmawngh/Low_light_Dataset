@@ -20,19 +20,37 @@ detectron2
 # Pretrained Model
 [TridentNet](https://koreaoffice-my.sharepoint.com/:u:/g/personal/rmawngh_korea_ac_kr/Ec6b50O6SMpPuVZsTZLI6dQBvaF6xpKN6OQ3SjbNRye6tQ?e=8TBlbV)
 
+<p align="center">
+<img alt="Left" width="400" height "400" src="https://user-images.githubusercontent.com/46700730/209906055-ddbb985a-28f8-4976-89f8-5fe6c68287d7.png">
+</p>
+
 # Code Desciption
 You must change the absolute path of each Python file.
 
-#### Create list file
+#### Dataset list txt file
+
 ```
-python txt_list.py
+Total : 2,043,025 (train : validation : test = 8 : 1 : 1)
+Train : 1,634,420
+Validation : 204,302
+Test : 204,303
 ```
-output : list file
-using this text file in my_dataset_function of each python file.
+
+[Train List](https://koreaoffice-my.sharepoint.com/:t:/g/personal/rmawngh_korea_ac_kr/EcS7Avk-PT1Lp6hCkNdnMlEBkmKyDiqhdd5mfafZTL97kQ?e=BnRZA9), 
+[Validation List](https://koreaoffice-my.sharepoint.com/:t:/g/personal/rmawngh_korea_ac_kr/EZWcJgxm5ERFjbDFaalu0uUBniZmsytCZqfz9ITLxq_MHw?e=MCS4PF), 
+[Test List](https://koreaoffice-my.sharepoint.com/:t:/g/personal/rmawngh_korea_ac_kr/ESktQjLFadJLj9IusAJLFBwBkvKiVcx5RTZGatxcOOYjFg?e=09znk8)
 
 #### Training
 ```
 python train_net.py --config-file configs/tridentnet_fast_R_50_C4_1x.yaml --num-gpus 4
+```
+
+training setting
+```
+Class : 51
+Batch size : 16
+iteration : 250,000
+iteration step : (180,000, 220,000)
 ```
 
 #### Evaluation
@@ -59,3 +77,42 @@ tridentnet    : TridentNet model codes
 <p align="center">
 <img src="https://user-images.githubusercontent.com/46700730/203223053-45dd67c2-289c-4b45-b0e7-4ba1fd7a4353.gif">
 </p>
+
+
+
+
+# Docker (Ubuntu)
+
+[TridentNet Docker](https://koreaoffice-my.sharepoint.com/:u:/g/personal/rmawngh_korea_ac_kr/EVKfv6VFAMdGoYlDPd-4MGoB2X6Tt58m-gKH0iGhIrkcJg?e=bCxANZ)
+
+**Environment Setting**
+```
+install docker
+install nvidia-docker
+
+docker load -i TridentNet.tar
+```
+
+**activate docker container**
+```
+NV_GPU 0,1,2,3 nvidia-docker run --ipc=host -v /{low_light_dataset_path}:/dataset -ti low-light:latest
+
+cd low-light/detectron/project/TridentNet
+```
+You should change the GPU number considering your computer settings.
+
+**Train**
+```
+python3 train_net.py --config-file configs/tridentnet_fast_R_50_C4_1x.yaml --num-gpus 4
+```
+
+**Test**
+```
+python3 train_net.py --config-file configs/tridentnet_fast_R_50_C4_1x.yaml  --num-gpus 4 --eval-only MODEL.WEIGHTS ./output/model_TridentNet.pth
+```
+
+**Visualization**
+```
+python3 visualization.py
+```
+
