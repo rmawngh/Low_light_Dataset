@@ -89,13 +89,7 @@ pointrend     : PointRend model codes
 
 [PointRend Docker](https://koreaoffice-my.sharepoint.com/:u:/g/personal/rmawngh_korea_ac_kr/EUfzXuMOVD9BgZinLwSbxMQBVT7kh41lYLoTrIachpH-ow?e=uhfKyY)
 
-Environment Setting
-```
-install docker
-install nvidia-docker
-```
-
-Environment Setting
+**Environment Setting**
 ```
 install docker
 install nvidia-docker
@@ -103,24 +97,25 @@ install nvidia-docker
 docker load -i PointRend.tar
 ```
 
-activate docker container
+**activate docker container**
 ```
 NV_GPU 0,1,2,3 nvidia-docker run --ipc=host -v /{low_light_dataset_path}:/dataset -ti low-light:latest
 
 cd low-light/detectron/project/PointRend
 ```
+You should change the GPU number considering your computer settings.
 
-Train
+**Train**
 ```
 python3 train_net.py --config-file configs/InstanceSegmentation/pointrend_rcnn_R_50_FPN_1x_coco.yaml --num-gpus 4
 ```
 
-Test
+**Test**
 ```
 python3 train_net.py --config-file configs/InstanceSegmentation/pointrend_rcnn_R_50_FPN_1x_coco.yaml  --num-gpus 4 --eval-only MODEL.WEIGHTS ./output/model_PointRend.pth
 ```
 
-Visualization
+**Visualization**
 ```
 python3 visualization.py
 ```
