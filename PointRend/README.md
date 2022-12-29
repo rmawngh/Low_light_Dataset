@@ -18,6 +18,11 @@ detectron2
 ```
 
 # Pretrained Model
+
+<p align="center">
+<img alt="Left" width="400" height "400" src="https://user-images.githubusercontent.com/46700730/209906053-73a146ec-3f0b-4948-9d55-a8cfbc2ad99a.png">
+<img alt="Right" width="400" height "400" src="https://user-images.githubusercontent.com/46700730/209906050-79a71a99-155f-4a64-a0f2-d93b8c397a22.png">
+</p>
 [PointRend](https://koreaoffice-my.sharepoint.com/:u:/g/personal/rmawngh_korea_ac_kr/EflwSSg0WgFHhyC8NTYh56wBjq16hctngYRJV5-4hdSnuw?e=rX64he)
 
 
@@ -76,9 +81,4 @@ pointrend     : PointRend model codes
 
 <p align="center">
 <img src="https://user-images.githubusercontent.com/46700730/203223046-53f07eb7-37b4-4f0f-bb14-0a5129aa4f3e.gif">
-</p>
-
-<p align="center">
-<img alt="Left" width="400" height "400" src="https://user-images.githubusercontent.com/46700730/209906053-73a146ec-3f0b-4948-9d55-a8cfbc2ad99a.png">
-<img alt="Right" width="400" height "400" src="https://user-images.githubusercontent.com/46700730/209906050-79a71a99-155f-4a64-a0f2-d93b8c397a22.png">
 </p>
