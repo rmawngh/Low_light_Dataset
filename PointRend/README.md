@@ -50,13 +50,13 @@ python train_net.py --config-file configs/InstanceSegmentation/pointrend_rcnn_R_
 ```
 
 training setting
-```
+
 Class : 51
 ['Book', 'Car', 'Scooter', 'Truck', 'Bus', 'Bicycle', 'Chair', 'Table', 'Dish', 'Flowerpot', 'Monitor', 'Keyboard', 'Mouse', 'Weight', 'Motorcycle', 'Cup', 'Umbrella', 'Human', 'Boat', 'Frame', 'Bottle', 'Laptop', 'Mirror', 'Ladle', 'Trash_Can', 'Pot', 'Cat', 'Clock', 'Kettle', 'Dog', 'Station', 'Ball', 'Baseball_Glove', 'Camera', 'Calendar', 'Baseball_Bat', 'Racket', 'Bench', 'Stand_lamp', 'Handbag', 'Glasses', 'Remote', 'Wallet', 'Smart_Phone', 'Suitcase', 'Can', 'Folding_Fan', 'Cap', 'Labacon', 'Swing', 'Seesaw']
 Batch size : 16
 iteration : 250,000
 iteration step : (180,000, 220,000)
-```
+
 
 
 #### Evaluation
