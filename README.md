@@ -10,6 +10,11 @@ The final low-light result dataset consists of 2 million images.
 
 Train : Valid : Test = 8 : 1 : 1
 
+Total : 2,043,025 (train : validation : test = 8 : 1 : 1)
+Train : 1,634,420
+Validation : 204,302
+Test : 204,303
+
 <br>
 
 ### TridentNet
