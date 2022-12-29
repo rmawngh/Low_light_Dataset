@@ -18,7 +18,7 @@ detectron2
 ```
 
 # Pretrained Model
-[TridentNet](https://drive.google.com/file/d/1ZLSXj7ccb4hn14lHQE--6I47SDapFWeR/view?usp=share_link)
+[TridentNet](https://koreaoffice-my.sharepoint.com/:u:/g/personal/rmawngh_korea_ac_kr/Ec6b50O6SMpPuVZsTZLI6dQBvaF6xpKN6OQ3SjbNRye6tQ?e=8TBlbV)
 
 # Code Desciption
 You must change the absolute path of each Python file.
