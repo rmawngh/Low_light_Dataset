@@ -33,8 +33,8 @@ Validation : 204,302
 Test : 204,303
 ```
 
-[Train List](https://koreaoffice-my.sharepoint.com/:t:/g/personal/rmawngh_korea_ac_kr/EcS7Avk-PT1Lp6hCkNdnMlEBkmKyDiqhdd5mfafZTL97kQ?e=BnRZA9)
-[Validation List](https://koreaoffice-my.sharepoint.com/:t:/g/personal/rmawngh_korea_ac_kr/EZWcJgxm5ERFjbDFaalu0uUBniZmsytCZqfz9ITLxq_MHw?e=MCS4PF)
+[Train List](https://koreaoffice-my.sharepoint.com/:t:/g/personal/rmawngh_korea_ac_kr/EcS7Avk-PT1Lp6hCkNdnMlEBkmKyDiqhdd5mfafZTL97kQ?e=BnRZA9), 
+[Validation List](https://koreaoffice-my.sharepoint.com/:t:/g/personal/rmawngh_korea_ac_kr/EZWcJgxm5ERFjbDFaalu0uUBniZmsytCZqfz9ITLxq_MHw?e=MCS4PF), 
 [Test List](https://koreaoffice-my.sharepoint.com/:t:/g/personal/rmawngh_korea_ac_kr/ESktQjLFadJLj9IusAJLFBwBkvKiVcx5RTZGatxcOOYjFg?e=09znk8)
 
 
@@ -79,8 +79,8 @@ pointrend     : PointRend model codes
 </p>
 
 <p align="center">
-<img src="PointRend/results/PointRend_Bb.png">
-<img src="PointRend/results/PointRend_Seg.png">
+<img src="https://user-images.githubusercontent.com/46700730/209906053-73a146ec-3f0b-4948-9d55-a8cfbc2ad99a.png">
+<img src="https://user-images.githubusercontent.com/46700730/209906050-79a71a99-155f-4a64-a0f2-d93b8c397a22.png">
 </p>
 
 
