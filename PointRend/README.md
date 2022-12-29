@@ -79,6 +79,6 @@ pointrend     : PointRend model codes
 </p>
 
 <p align="center">
-<img alt="Left" width="200" height "200" src="https://user-images.githubusercontent.com/46700730/209906053-73a146ec-3f0b-4948-9d55-a8cfbc2ad99a.png">
-<img alt="Right" width="200" height "200" src="https://user-images.githubusercontent.com/46700730/209906050-79a71a99-155f-4a64-a0f2-d93b8c397a22.png">
+<img alt="Left" width="600" height "600" src="https://user-images.githubusercontent.com/46700730/209906053-73a146ec-3f0b-4948-9d55-a8cfbc2ad99a.png">
+<img alt="Right" width="600" height "600" src="https://user-images.githubusercontent.com/46700730/209906050-79a71a99-155f-4a64-a0f2-d93b8c397a22.png">
 </p>
