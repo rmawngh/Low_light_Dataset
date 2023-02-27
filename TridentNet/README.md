@@ -30,10 +30,10 @@ You must change the absolute path of each Python file.
 #### Dataset list txt file
 
 ```
-Total : 2,043,025 (train : validation : test = 8 : 1 : 1)
-Train : 1,634,420
-Validation : 204,302
-Test : 204,303
+Total : 2,036,572 (train : validation : test = 8 : 1 : 1)
+Train : 1,629,260
+Validation : 203,656
+Test : 203,656
 ```
 
 [Train List](https://koreaoffice-my.sharepoint.com/:t:/g/personal/rmawngh_korea_ac_kr/EcS7Avk-PT1Lp6hCkNdnMlEBkmKyDiqhdd5mfafZTL97kQ?e=BnRZA9), 
