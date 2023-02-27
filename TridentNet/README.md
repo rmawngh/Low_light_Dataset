@@ -36,9 +36,9 @@ Validation : 203,656
 Test : 203,656
 ```
 
-[Train List](https://koreaoffice-my.sharepoint.com/:t:/g/personal/rmawngh_korea_ac_kr/EcS7Avk-PT1Lp6hCkNdnMlEBkmKyDiqhdd5mfafZTL97kQ?e=BnRZA9), 
-[Validation List](https://koreaoffice-my.sharepoint.com/:t:/g/personal/rmawngh_korea_ac_kr/EZWcJgxm5ERFjbDFaalu0uUBniZmsytCZqfz9ITLxq_MHw?e=MCS4PF), 
-[Test List](https://koreaoffice-my.sharepoint.com/:t:/g/personal/rmawngh_korea_ac_kr/ESktQjLFadJLj9IusAJLFBwBkvKiVcx5RTZGatxcOOYjFg?e=09znk8)
+[Train List](https://koreaoffice-my.sharepoint.com/:t:/g/personal/rmawngh_korea_ac_kr/EVZgGXG5oDNDuJuyKo03ywMBC7ukbs4H1AJWMX_OyTbsmQ?e=FXjqGX), 
+[Validation List](https://koreaoffice-my.sharepoint.com/:t:/g/personal/rmawngh_korea_ac_kr/EUXdFbd6nHJGmR97xjzGFBwBKnAIGnlRltCDs0EqPC9yzA?e=JVxltG), 
+[Test List](https://koreaoffice-my.sharepoint.com/:t:/g/personal/rmawngh_korea_ac_kr/EaMC1M4Z2bRHm9I7LQ-Rp7EBa4AyaJfJ_4-RE_4cLQTJOQ?e=L2dOFO)
 
 #### Training
 ```
