@@ -2,7 +2,7 @@
 
 There are the two models used in Low-light Dataset Project.
 
-Dataset Project results uploaded in [AI-Hub Website](https://www.aihub.or.kr/aihubdata/data/view.do?currMenu=115&topMenu=100&aihubDataSe=data&dataSetSn=71377)
+Dataset Project results uploaded in [AI-Hub](https://www.aihub.or.kr/aihubdata/data/view.do?currMenu=115&topMenu=100&aihubDataSe=data&dataSetSn=71377)
 
 Each folder describe their code, pretrained model and results.
 
